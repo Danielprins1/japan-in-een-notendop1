@@ -31,8 +31,10 @@ body{
 
 .clm{
     float: left;
-    max-width: 23.5%;
-    padding: 10.5px;  
+    max-width: 30%;
+    padding: 10.5px;
+    justify-content: center;
+    align-items: center; 
     
 }
 
@@ -49,4 +51,9 @@ font-size: 30px;
 text-align: center;
 
 }
+
+.clm a:hover{
+    text-decoration: underline; color: red;
+}
+
 
